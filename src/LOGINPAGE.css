@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: flex;    
+
+}
+.container-left{
+background-color: rgb(237, 235, 235);
+flex: 0.7;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.cl-1,.cl-2,.cl-3,.cl-4,.cl-5,.cl-6,.cl-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.icon-1,.icon-2,.icon-3{
+    padding: 10px;
+    margin: 10px;
+}
+.icon-1{
+     background-color: white;
+    border-radius: 50%;
+}
+.icon-2{
+    color: red;
+    border-radius: 50%;
+    background-color: white;
+}
+.icon-3{
+
+    border-radius: 50%;
+    color:blue;
+    background-color:white;
+}
+.cl-7>button{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 20vh;
+    border-radius: 20px;
+    background-color: rgb(28, 229, 192);
+}
+.cl-5>input{
+    height: 40px;
+    width: 60vh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.cl-6>input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 56vh;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+
+}
+.eye-icon{
+    background-color: white;
+    color: gray;
+    width: 10vh;
+    height: 40px;
+    padding: 8px 0;
+    padding-right: 6px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+}
+.container-right{
+background-color: rgb(28, 229, 192);
+flex: 0.3;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+row-gap: 30px;
+
+}
+.cr-1,.cr-2,.cr-3{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.cr-1{
+    font-stretch: ultra-expanded;
+}
+.cr-2{
+    font-stretch: expanded;
+    flex-direction: column;
+}
+.cr-3>button{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 20vh;
+    border-radius: 25px;
+}
+.signup-link{
+    text-decoration: none;
+    color:black;
+}

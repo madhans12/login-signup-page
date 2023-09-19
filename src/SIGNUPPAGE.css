@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.login{
+    display: flex;    
+
+}
+.login-left{
+background-color: white;
+flex: 0.35;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+.lg-1{
+    top: 0%;
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 100px;
+    gap: 5px;
+}
+.lg-2{
+    padding: 20px 0 ;
+}
+
+
+.login-right{
+background-color: rgb(230, 229, 229);
+flex: 0.65;
+height: 100vh;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+
+
+
+}
+.form-1{
+    padding:20% 15%;
+}
+.lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12{
+    color: black;
+}
+.lg-5,.lg-6{
+    padding: 15px 0;
+}
+.lg-7,.lg-9{
+padding: 10px 0;
+}
+.lg-8,.lg-91{
+    height: 40px;
+    width: 60vh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.lg-10{
+    padding-top:40px ;
+}
+.lg-11{
+    padding-bottom: 40px;
+}
+.btn-1,.btn-2{
+    height: 40px;
+    border-radius: 5px;
+}
+.btn-1{
+    width: 20vh;
+    background-color: white;
+    border: none;
+}
+.btn-2{
+    width:35vh;
+    border:none;
+    background-color: rgb(1, 184, 50);
+margin-left:  5vh;
+}
+.lg-12{
+    gap: 20px;
+}
+.lg-13{
+    display: flex;
+    padding: 20px 0;
+}
+.share-icon{
+color: white;
+    padding-top: 40%;
+    object-fit: contain;
+}
+.login-link{
+
+    text-decoration: none;
+}
