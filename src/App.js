@@ -5,7 +5,7 @@ import LOGINPAGE from "./LOGINPAGE";
 
 function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<SIGNUPPAGE />}></Route>
@@ -13,7 +13,7 @@ function App() {
           <Route path="/signup" element={<SIGNUPPAGE />}></Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
