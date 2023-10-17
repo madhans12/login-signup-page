@@ -27,10 +27,10 @@ const LOGINPAGE = () => {
             <hr />
           </div>
           <div className="cl-5">
-            <input type="text" placeholder="    Email"></input>
+            <input type="text" placeholder="Email"></input>
           </div>
           <div className="cl-6">
-            <input type="password" placeholder="     password"></input>
+            <input type="password" placeholder="password"></input>
             <RemoveRedEyeOutlinedIcon className="eye-icon" />
           </div>
           <div className="cl-7">

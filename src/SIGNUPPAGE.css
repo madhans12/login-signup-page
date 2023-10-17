@@ -3,8 +3,7 @@
     margin: 0%;
 }
 .login{
-    display: flex;    
-
+    display: flex;
 }
 .login-left{
 background-color: white;
@@ -37,17 +36,15 @@ flex-direction: column;
 .login-right{
 background-color: rgb(230, 229, 229);
 flex: 0.65;
-height: 100vh;
 display: flex;
 flex-direction: column;
-/* justify-content: center; */
+padding-top:10%;
+padding-left: 15%;
 
 
 
 }
-.form-1{
-    padding:20% 15%;
-}
+
 .lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12{
     color: black;
 }
